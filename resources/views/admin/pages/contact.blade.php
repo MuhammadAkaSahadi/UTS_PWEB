@@ -18,7 +18,7 @@
             <tbody>
                 @php
                     $people = [
-                        ['name' => 'John Doe', 'occupation' => 'Student'],
+                        ['name' => 'Gojo Satorou', 'occupation' => 'Student'],
                         ['name' => 'Jane Smith', 'occupation' => 'Employee'],
                         ['name' => 'Alan Brown', 'occupation' => 'Professor']
                     ];
