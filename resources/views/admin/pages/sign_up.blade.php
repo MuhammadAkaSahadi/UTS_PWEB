@@ -3,7 +3,6 @@
 @section('title', 'Sign-Up')
 
 @section('content')
-<!-- component -->
 <div class="h-screen md:flex">
 	<div class="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr i justify-around items-center hidden">
 		<div>
@@ -12,7 +11,7 @@
 		</div>
 	</div>
 	<div class="flex md:w-1/2 justify-center py-10 items-center bg-white">
-		<form class="bg-white">
+		<form action="contact" class="bg-white">
 			<h1 class="text-gray-800 font-bold text-2xl mb-1">Hello Again!</h1>
 			<p class="text-sm font-normal text-gray-600 mb-7">Welcome Back</p>
 			<div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">

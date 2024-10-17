@@ -14,5 +14,5 @@ Route::get('/', function () {
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/admin/pages/login', [AdminController::class, 'login']);
 Route::get('/admin/pages/register', [AdminController::class, 'register']);
-Route::get('/admin/pages/contact', [AdminController::class, 'contact']);
-Route::get('/admin/pages/sign_up', [AdminController::class, 'sign_up']);
+Route::get('/admin/pages/contact', [AdminController::class, 'contact'])->name('contact');
+Route::get('/admin/pages/sign_up', [AdminController::class, 'sign_up'])->name('contact');
