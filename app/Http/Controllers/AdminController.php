@@ -31,4 +31,6 @@ class AdminController extends Controller
     public function sign_up() {
         return view('admin.pages.sign_up');
     }
+
+    
 }

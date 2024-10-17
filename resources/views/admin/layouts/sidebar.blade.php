@@ -1,6 +1,5 @@
 @extends('admin.layouts.app')
 
-@section('content')
     <div id="sidebar" class="bg-white h-screen md:block shadow-xl px-3 w-30 md:w-60 lg:w-60 overflow-x-hidden transition-transform duration-300 ease-in-out" x-show="sidenav" @click.away="sidenav = false" >
         <div class="space-y-6 md:space-y-10 mt-10">
             <h1 class="font-bold text-4xl text-center md:hidden">
@@ -78,4 +77,3 @@
             <span class="">Users</span>
         </a>
     </div>
-@endsection

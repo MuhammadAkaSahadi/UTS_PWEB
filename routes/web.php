@@ -3,13 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 // Route::get('/', function () {
-//     return view('/admin/pages/login');
+//     return view('welcome');
 // });
+
+Route::get('/', function () {
+    return view('/admin/pages/login');
+});
 
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
 Route::get('/admin/pages/login', [AdminController::class, 'login']);
