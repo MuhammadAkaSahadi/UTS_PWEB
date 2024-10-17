@@ -4,7 +4,8 @@
 @section('title', 'Contact')
 
 @section('content')
-@include('admin.layouts.navbar')
+{{-- @include('admin.layouts.navbar')
+@include('admin.layouts.sidebar') --}}
     <div class="container mx-auto px-4 py-8">
         <h1 class="text-3xl font-bold mb-6">Contact List</h1>
 

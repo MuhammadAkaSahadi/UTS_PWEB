@@ -1,8 +1,9 @@
-@extends('admin.layouts.app')
+@extends('admin.layouts.temp')
 
 @section('title', 'Sign-Up')
 
 @section('content')
+
 <div class="h-screen md:flex">
 	<div class="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr i justify-around items-center hidden">
 		<div>
