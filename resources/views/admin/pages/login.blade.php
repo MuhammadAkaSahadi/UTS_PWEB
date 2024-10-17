@@ -37,7 +37,7 @@
   </form>
   <!-- Sign up  Link -->
   <div class="mt-6 text-blue-500 text-center">
-    <a href="sign_up" class="hover:underline">Sign up Here</a>
+    <a href="admin/pages/sign_up" class="hover:underline">Sign up Here</a>
   </div>
 </div>
 </div>
